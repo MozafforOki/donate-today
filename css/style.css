@@ -4,6 +4,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* Banner Section starts */
 .banner-section{
     background-image: url(/images/donation7.jpg);
     background-repeat: no-repeat;
@@ -21,14 +22,19 @@ body{
 h1{
     font-size: 50px;
     font-weight: 700;
-    
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+h4{
+    font-size: 22px;
 }
 p{
     margin-bottom: 40px;
     font-size: 18px;
-    
-
-}
+    line-height: 24px;
+} 
 .btn{
     padding: 15px 30px;
     text-decoration: none;
@@ -36,40 +42,145 @@ p{
     color: #fff;
     border: none;
     border-radius: 10px;
-
 }
+.tomato-color{
+    color: tomato;
+} 
 
+/* Donate section starts*/
 .donate-section{
-    margin: 0 200px;
-    margin-bottom: 50px;
-}
-.text-center{
-    text-align: center;
+    margin: 80px 100px;
 }
 .flexible-container{
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
-    
 }
-.item{
+.text-center{
+    text-align: center;
+}
+.amount{
     padding: 20px 30px;
     background-color: rgb(232, 245, 245);
     box-shadow: 1px 1px 5px rgb(232, 245, 245);
     border-radius: 5px;
     margin-left: 30px;
+    color: gray;
 }
-#special-item{
+.amount p{
+    font-size: 40px;
+    font-weight: 700;
+}
+#special-amount{
     border: 3px solid rgb(235, 83, 83);
     background-color: beige;
+    color: rgb(235, 83, 83);
 }
-.other-amount-text{
-    margin-bottom: 5px;
-    color: darkgray;
+#enter-amount{
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    outline: none;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
 }
-.horizontal-rule{
-    width: 50%;
-    margin-bottom: 30px;
-    
-    
+/* Donate section ends*/
+
+/* Donate-plan-section starts */
+.donate-plan-section{
+    margin: 20px 100px;
+    padding: 30px 10px;
 }
+
+.donation-items{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 30%;
+    padding: 40px 30px;
+    border-radius: 5px;
+    margin: 0 15px;
+
+
+}
+.item p{
+    color: #707070;
+}
+.food{
+    background-color: rgb(233, 240, 237);
+}
+.shelter{
+    background-color: beige;
+}
+.education{
+    background-color: rgb(227, 214, 240);
+}
+
+/* Donate-plan-section ends */
+
+/* Our volunteers section starts */
+.Volunteers{
+    display: flex;
+    justify-content: center;
+}
+.Volunteer-info{
+    border: 1px solid grey;
+             flex-basis: 32%;
+             max-width: 370px;
+             padding: 10px;
+             display: flex;
+             flex-direction: column;
+             margin-bottom: 15px;
+             margin-left: 20px;
+}
+small{
+    color: #707070;
+}
+/* Our volunteers section ends */
+
+/* Get updates section starts */
+.email-box {
+    width: 70%;
+    background-color: #f9e9b8;
+    padding: 8%;
+    margin: 5% auto 12%;}
+
+#input-email {
+    padding: 15px;
+    font-size: 20px;
+    width: 40%;
+    margin-left: 20%;
+    border: 0;
+    background-color: #e7c6c6;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.submit-btn{
+    background-image: linear-gradient(orange,tomato);
+    padding-top: 19px;
+    padding-bottom: 15px;
+    width: 170px;
+    text-align: center;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    color: white;
+}
+/* Get updates section ends */
+/* Footer starts */
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+    margin-top: 60px;
+    color: white;
+}
+.footer-title{
+    color: tomato;
+}
+/* Footer ends */
