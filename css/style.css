@@ -21,7 +21,7 @@ body{
 h1{
     font-size: 50px;
     font-weight: 700;
-    letter-spacing: 5px;
+    
 }
 p{
     margin-bottom: 40px;
@@ -37,4 +37,39 @@ p{
     border: none;
     border-radius: 10px;
 
+}
+
+.donate-section{
+    margin: 0 200px;
+    margin-bottom: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.flexible-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.item{
+    padding: 20px 30px;
+    background-color: rgb(232, 245, 245);
+    box-shadow: 1px 1px 5px rgb(232, 245, 245);
+    border-radius: 5px;
+    margin-left: 30px;
+}
+#special-item{
+    border: 3px solid rgb(235, 83, 83);
+    background-color: beige;
+}
+.other-amount-text{
+    margin-bottom: 5px;
+    color: darkgray;
+}
+.horizontal-rule{
+    width: 50%;
+    margin-bottom: 30px;
+    
+    
 }
